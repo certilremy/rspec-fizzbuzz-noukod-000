@@ -11,7 +11,8 @@ elsif int % 3 == 0
 elsif int % 5 == 0
    "Buzz"
 
-  if int % 5 || 3 != 0
+ elsif 
+    int % 5 || 3 != 0
  "nil"
 
 end
