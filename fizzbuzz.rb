@@ -12,7 +12,7 @@ elsif int % 5 == 0
 elsif int % 5||3 == 0
   "FizzBuzz"
 
-  if int % 5|| 3 == 0
+  if int !% 5 || 3 == 0
  "nil"
 end
 end
