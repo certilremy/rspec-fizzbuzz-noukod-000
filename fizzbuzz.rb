@@ -10,11 +10,14 @@ elsif int % 5 == 0
    "Buzz"
 
 elsif int % 5||3 == 0
-  "nil"
+  "FizzBuzz"
 
+  if int % 5|| 3 = 0
+ "nil"
 end
 end
 
 fizzbuzz(3) # => You should see a return of "Fizz"
 fizzbuzz(5) # => You should see a return of nil
-fizzbuzz(20)
+fizzbuzz(15)
+fizzbuzz (40)
